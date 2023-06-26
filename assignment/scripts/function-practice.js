@@ -113,16 +113,29 @@ console.log(sumAll([2, 43, 2, 10, 22]));
 // 10. Function to return a new array of all positive (greater than zero)
 //     numbers contained in an input array. If there are no positive numbers
 //     return an empty array. Note: The input array should not change.
-function allPositive() {
 
+function allPositive(inputArray) {
+  let positiveNumber = [];
+
+  for (number of inputArray) {
+    if (number > 0) {
+      positiveNumber.push(number)
+    }
+  }
+  return positiveNumber
 }
-
+console.log(allPositive([2, 32, 4, -2, 4, 6]));
 
 // 11. Pick a problem from Edabit(https://edabit.com/) or
 //     CodeWars(https://www.codewars.com/). Then describe it
 //     here in a comment, write the function, and test it!
+//Create a function that takes two numbers as arguments and returns their sum.
 
-
+function addition(a, b) {
+  ab = a + b
+  return ab
+}
+console.log(addition(4, 5));
 // DO NOT MODIFY
 // Used for automated testing
 try {
